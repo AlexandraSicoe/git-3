@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* .float-container { */
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+body:{
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+.div-child-one {
+  float: left;
+  width: 49%;
+  height: 100vh;
+  background-color: salmon;
+  border-right: 10px solid lightgreen;
+}
+.div-child-two {
+  float: right;
+  width: 50%;
+  height: 100vh;
+  background-color: lightgreen;
+  border-left: 9px solid salmon;
+}
