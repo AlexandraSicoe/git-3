@@ -2,27 +2,24 @@
   margin: 0;
   padding: 0;
 }
-/* .float-container { */
+body {
+  display: inline-block;
   height: 100%;
   width: 100%;
-  display: inline-block;
-}
-body:{
-  height: 100%;
-  width: 100%;
-  display: inline-block;
 }
 .div-child-one {
+  box-sizing: border-box;
   float: left;
-  width: 49%;
+  width: 50%;
   height: 100vh;
   background-color: salmon;
   border-right: 10px solid lightgreen;
 }
 .div-child-two {
+  box-sizing: border-box;
   float: right;
   width: 50%;
   height: 100vh;
   background-color: lightgreen;
-  border-left: 9px solid salmon;
+  border-left: 10px solid salmon;
 }
